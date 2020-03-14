@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>first article | 李金泽的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="认识数据类型 1234567891011121314151617181920212223242526with open (&quot;txt.txt&quot;,&#39;r&#39;) as f:	s&#x3D;&#39;&#39;	article&#x3D;f.readlines()	#print(article)	for line in article:		s+&#x3D;line	s&#x3D;s.replace(&quot;,&quot; ,&quot; &quot;)	s&#x3D;s.replace(&quot;.&quot; ,&quot; &quot;)	s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="first article">
+<meta property="og:url" content="http://yoursite.com/2020/03/14/first-article/index.html">
+<meta property="og:site_name" content="李金泽的博客">
+<meta property="og:description" content="认识数据类型 1234567891011121314151617181920212223242526with open (&quot;txt.txt&quot;,&#39;r&#39;) as f:	s&#x3D;&#39;&#39;	article&#x3D;f.readlines()	#print(article)	for line in article:		s+&#x3D;line	s&#x3D;s.replace(&quot;,&quot; ,&quot; &quot;)	s&#x3D;s.replace(&quot;.&quot; ,&quot; &quot;)	s">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-14T05:09:18.000Z">
+<meta property="article:modified_time" content="2020-03-14T05:29:00.168Z">
+<meta property="article:author" content="李金泽(Zevin Li)">
+<meta property="article:tag" content="-python -基础内容">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="李金泽的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">李金泽的博客</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Zevin Li</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-first-article" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/14/first-article/" class="article-date">
+  <time datetime="2020-03-14T05:09:18.000Z" itemprop="datePublished">2020-03-14</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA-%E7%BC%96%E7%A8%8B/">-计算机 -编程</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      first article
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>认识数据类型</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open (<span class="string">"txt.txt"</span>,<span class="string">'r'</span>) <span class="keyword">as</span> f:</span><br><span class="line">	s=<span class="string">''</span></span><br><span class="line">	article=f.readlines()</span><br><span class="line">	<span class="comment">#print(article)</span></span><br><span class="line">	<span class="keyword">for</span> line <span class="keyword">in</span> article:</span><br><span class="line">		s+=line</span><br><span class="line"></span><br><span class="line">	s=s.replace(<span class="string">","</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">"."</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">"!"</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">'"'</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">":"</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">"?"</span> ,<span class="string">" "</span>)</span><br><span class="line">	s=s.replace(<span class="string">"\n"</span> ,<span class="string">" "</span>)</span><br><span class="line"></span><br><span class="line">	word_list=s.split(<span class="string">' '</span>)</span><br><span class="line">	word_set=set(word_list)</span><br><span class="line">	<span class="comment">#print(word_set)</span></span><br><span class="line">	word_dict=dict()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> word <span class="keyword">in</span> word_list:</span><br><span class="line">		<span class="keyword">if</span> word <span class="keyword">not</span> <span class="keyword">in</span> word_dict:</span><br><span class="line">			word_dict[word] = <span class="number">1</span></span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			word_dict[word] +=<span class="number">1</span></span><br><span class="line">	print(word_dict)</span><br></pre></td></tr></table></figure>
+<p>通过分析一个文本的词频，体验不同数据类型的应用和区别<br><strong>输出</strong>：</p>
+<p>```python<br>{‘I’: 15, ‘am’: 2, ‘happy’: 1, ‘to’: 59, ‘join’: 3, ‘with’: 13, ‘you’: 7, ‘today’: 9, ‘in’: 20, ‘what’: 1, ‘will’: 27, ‘go’: 8, ‘down’: 4, ‘history’: 2, ‘as’: 20, ‘the’: 101, ‘greatest’: 1, ‘demonstration’: 1, ‘for’: 9, ‘freedom’: 20, ‘of’: 99, ‘our’: 17, ‘nation’: 10, ‘’: 184, ‘Five’: 1, ‘score’: 1, ‘years’: 5, ‘ago’: 1, ‘a’: 37, ‘great’: 5, ‘American’: 4, ‘whose’: 1, ‘symbolic’: 1, ‘shadow’: 1, ‘we’: 18, ‘stand’: 3, ‘signed’: 1, ‘Emancipation’: 1, ‘Proclamation’: 1, ‘This’: 5, ‘momentous’: 1, ‘decree’: 1, ‘came’: 2, ‘beacon’: 1, ‘light’: 1, ‘hope’: 4, ‘millions’: 1, ‘Negro’: 13, ‘slaves’: 2, ‘who’: 4, ‘had’: 1, ‘been’: 2, ‘seared’: 1, ‘flames’: 1, ‘withering’: 1, ‘injustice’: 3, ‘It’: 4, ‘joyous’: 1, ‘daybreak’: 1, ‘end’: 2, ‘long’: 6, ‘night’: 1, ‘bad’: 2, ‘captivity’: 1, ‘But’: 4, ‘one’: 10, ‘hundred’: 4, ‘later’: 4, ‘still’: 4, ‘is’: 23, ‘not’: 13, ‘free’: 3, ‘One’: 3, ‘life’: 1, ‘sadly’: 1, ‘crippled’: 1, ‘by’: 8, ‘manacles’: 1, ‘segregation’: 2, ‘and’: 41, ‘chains’: 1, ‘discrimination’: 1, ‘lives’: 1, ‘on’: 5, ‘lonely’: 1, ‘island’: 1, ‘poverty’: 1, ‘midst’: 1, ‘vast’: 1, ‘ocean’: 1, ‘material’: 1, ‘prosperity’: 1, ‘languished’: 1, ‘corners’: 1, ‘society’: 1, ‘finds’: 1, ‘himself’: 1, ‘an’: 4, ‘exile’: 1, ‘his’: 3, ‘own’: 1, ‘land’: 3, ‘And’: 12, ‘so’: 4, “we’ve”: 3, ‘come’: 10, ‘here’: 3, ‘dramatize’: 1, ‘shameful’: 1, ‘condition’: 1, ‘In’: 2, ‘sense’: 1, “nat</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/14/first-article/" data-id="ck7r5m6i5000040ue0vxg7jrp" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python-%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9/" rel="tag">-python -基础内容</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/14/title/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">title&#39;</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA-%E7%BC%96%E7%A8%8B/">-计算机 -编程</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/python-%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9/" rel="tag">-python -基础内容</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/python-%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9/" style="font-size: 10px;">-python -基础内容</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/14/first-article/">first article</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/14/title/">title&#39;</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/14/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 李金泽(Zevin Li)<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
