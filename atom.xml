@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>李金泽的博客</title>
+  
+  <subtitle>Zevin Li</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zevinli.github.io/"/>
+  <updated>2020-03-14T12:32:11.112Z</updated>
+  <id>https://zevinli.github.io/</id>
+  
+  <author>
+    <name>李金泽(Zevin Li)</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇文章 First Article</title>
+    <link href="https://zevinli.github.io/2020/03/14/first-article/"/>
+    <id>https://zevinli.github.io/2020/03/14/first-article/</id>
+    <published>2020-03-14T05:09:18.000Z</published>
+    <updated>2020-03-14T12:32:11.112Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt; 欢迎来到我的博客，在这里我会分享我的日常，也会分享实用的知识。&lt;br&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-声明 -博主简介" scheme="https://zevinli.github.io/categories/%E5%A3%B0%E6%98%8E-%E5%8D%9A%E4%B8%BB%E7%AE%80%E4%BB%8B/"/>
+    
+    
+      <category term="-个人相关" scheme="https://zevinli.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我要做些什么 How I Will Do？</title>
+    <link href="https://zevinli.github.io/2020/03/14/title/"/>
+    <id>https://zevinli.github.io/2020/03/14/title/</id>
+    <published>2020-03-14T04:47:55.237Z</published>
+    <updated>2020-03-14T12:39:09.727Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;因为个人比较喜欢记录生活，会在此分享我的经历，我的一切学习的内容和一些关于世界万物万事的独到的见解，当然也包括我的一些不成熟的想法观点和思路，包括我学习路上的一切一切。&lt;/p&gt;
+&lt;p&gt;本年我会在matlab，python，神经网络，机械原理上侧重。&lt;/p&gt;
+&lt;p&gt;附上：&lt;/
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-编程 -计算机" scheme="https://zevinli.github.io/categories/%E7%BC%96%E7%A8%8B-%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="-个人相关" scheme="https://zevinli.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>神经网路 How to distinguish a cat</title>
+    <link href="https://zevinli.github.io/2020/03/14/hello-world/"/>
+    <id>https://zevinli.github.io/2020/03/14/hello-world/</id>
+    <published>2020-03-14T04:43:19.607Z</published>
+    <updated>2020-03-14T12:25:54.068Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Logistic Regression with a Neural Network mindset&lt;/p&gt;
+&lt;p&gt;Welcome to your first (required) programming assignment! You will build a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-编程 -计算机" scheme="https://zevinli.github.io/categories/%E7%BC%96%E7%A8%8B-%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="-python -神经网路 -numpy -例题" scheme="https://zevinli.github.io/tags/python-%E7%A5%9E%E7%BB%8F%E7%BD%91%E8%B7%AF-numpy-%E4%BE%8B%E9%A2%98/"/>
+    
+  </entry>
+  
+</feed>
